@@ -61,8 +61,8 @@ public class DiscussionService {
                 .idUser(Integer.toString(u2.getIdUtilisateur()))
                 .pseudo(u2.getPseudo()).build();
         Message message=Message.builder()
-                .userFrom(client)
-                .userTo(vendeur)
+                .userFrom(vendeur)
+                .userTo(client)
                 .content("Bonjour,je suis interessee par la "+annonce.getModel().getMarque().getNomMarque()+" "+annonce.getModel().getNomModel())
                 .date(LocalDateTime.now()).build();
         this.messageService.insert(message);
