@@ -1,0 +1,7 @@
+com\example\Fiaraamidy\config\WebSocketConfig.class
+com\example\Fiaraamidy\service\DiscussionService.class
+com\example\Fiaraamidy\entites\Discussion.class
+com\example\Fiaraamidy\repository\DiscussionRepository.class
+com\example\Fiaraamidy\model\ChatNotification.class
+com\example\Fiaraamidy\entites\Discussion$DiscussionBuilder.class
+com\example\Fiaraamidy\model\ChatNotification$ChatNotificationBuilder.class
